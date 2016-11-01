@@ -1,0 +1,37 @@
+/* Notifications */
+.bookly-notifications-settings { margin: 0 0 5px 0; }
+.bookly-notifications-settings td { padding: 0 10px 10px 0; }
+.bookly-notifications-settings td label { margin: 0; }
+
+.bookly-notifications h4.panel-title input { margin: 0 0 1px; }
+.bookly-notifications .bookly-copy input, .bookly-notifications .bookly-copy label { margin: 0; }
+.bookly-notifications .bookly-codes input { cursor: pointer; border: none; width: 250px; }
+.bookly-notifications a[data-toggle="collapse"] {
+    outline: none;
+    box-shadow: none;
+    padding-right: 25px;
+    background: url("../../../../resources/images/notifications-arrow-up.png") 100% 50% no-repeat;
+    background-size: 17px 17px;
+}
+.bookly-notifications a[data-toggle="collapse"].collapsed {
+    background: url("../../../../resources/images/notifications-arrow-down.png") 100% 50% no-repeat;
+    background-size: 17px 17px;
+}
+
+.ab-sms-holder > textarea { width: 370px; }
+.ab-logout {
+    border: 0;
+    background: none;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+#sms_tabs { margin: 15px 0; }
+.ab-sms-notify-low-balance {
+    display: inline-block;
+    width: 52px;
+    padding-left: 10px;
+    white-space: nowrap;
+    float: right;
+    text-align: right;
+}

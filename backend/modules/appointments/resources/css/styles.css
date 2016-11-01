@@ -1,0 +1,25 @@
+.bookly-list-filter {
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+}
+.bookly-list-filter + .bookly-list-filter {
+    margin-left: 10px;
+}
+
+.bookly-list-filter > .chosen-container-single > .chosen-single {
+    padding: 0 0 0 10px !important;
+    height: 34px !important;
+    border: 1px solid #DDD !important;
+    border-radius: 4px !important;
+    background: #F7F7F7 !important;
+    box-shadow: none !important;
+    color: #555 !important;
+    line-height: 34px !important;
+}
+.bookly-list-filter > .chosen-container-active .chosen-with-drop .chosen-single div b{
+    background-position: -18px 6px !important;
+}
+.bookly-list-filter > .chosen-container-single .chosen-single div b {
+    background-position: 0 6px !important;
+}
